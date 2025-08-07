@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My_portFolio</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400i,700" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Mohd. Waliul Islam</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Hey, I'm <span>Mohd. Waliul Islam</span></h1>
+            <p class="hero-description">An MCA Student Specializing in AI & Machine Learning</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="profile-pic">
+                <img src="photo.jpg" alt="Your Photo">
+            </div>
+            <div class="about-text">
+                <p>
+                    From a curious BCA graduate to an aspiring AI innovator, my journey has been fueled by a passion for technology and its potential to reshape our world. Currently pursuing my MCA with a focus on Artificial Intelligence and Machine Learning, I'm dedicated to exploring the depths of intelligent systems.
+                </p>
+                <p>
+                    My mission is to contribute to cutting-edge AI solutions that solve real-world problems and drive positive change.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-gallery">
+
+            <!-- Project 1 -->
+            <div class="project-card fade-in">
+                <img src="images/project1-thumbnail.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>Spam_SMS_Detection</h3>
+                    <p>Built an AI model to classify SMS messages as spam or legitimate using TF-IDF and classifiers like Naive Bayes and SVM, enhancing message filtering accuracy and user safety.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card fade-in">
+                <img src="images/project2-thumbnail.jpg" alt="Project 2">
+                <div class="project-info">
+                    <h3>Credit Card Fraud</h3>
+                    <p>Developed a model to detect fraudulent credit card transactions using Logistic Regression, Decision Trees, and Random Forests, improving fraud detection accuracy and enhancing transaction security.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+
+           
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-content">
+            <!-- Programming Languages -->
+            <div class="skill fade-in">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>R</li>
+                    <li>SQL</li>
+                    <li>HTML</li>
+                </ul>
+            </div>
+            <!-- Frameworks & Tools -->
+            <div class="skill fade-in">
+                <h3>Frameworks & Tools</h3>
+                <ul>
+                    <li>TensorFlow</li>
+                    <li>PyTorch</li>
+                    <li>Scikit-Learn</li>
+                    <li>Pandas</li>
+                    <li>Numpy</li>
+                </ul>
+            </div>
+            <!-- Soft Skills -->
+            <div class="skill fade-in">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Analytical Thinking</li>
+                    <li>Team Collaboration</li>
+                    <li>Adaptability</li>
+                    <li>Problem-Solving</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <input type="text" name="name" required placeholder=" ">
+            <label>Name</label>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" required placeholder=" ">
+            <label>Email</label>
+        </div>
+        <div class="form-group">
+            <textarea name="message" required placeholder=" "></textarea>
+            <label>Message</label>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="social-links">
+        <a href="https://linkedin.com/in/waliul-islam-039325374" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/MohdWaliulIslam" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
+</section>
+
+
+    <!-- Modal Popup -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <p>Your message has been received!</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Waliul. All Rights Reserved.</p>
+         <div id="clock"></div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
